@@ -13,6 +13,8 @@ RUN apt-get -y install cmake && \
     apt-get -y install gettext && \
     apt-get -y install unzip
 
+ENV JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+
 #COPY . /usr/src/sipi
 #WORKDIR /usr/src/sipi
 #RUN cd build && cmake .. && make
